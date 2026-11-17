@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f9;
+  color: #222;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e293b;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+section {
+  margin-top: 25px;
+}
+
+article {
+  background: white;
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Clase que activará el Cherry-pick mañana */
+body.dark-mode {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+body.dark-mode article {
+  background-color: #1e293b;
+  color: #f8fafc;
+}
